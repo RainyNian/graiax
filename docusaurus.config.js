@@ -46,19 +46,11 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
+          title: '社区 - Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'QQ 讨论群',
+              href: 'https://jq.qq.com/?_wv=1027&k=VXp6plBD',
             },
           ],
         },
@@ -72,7 +64,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Graia Project.由 Docusaurus Ⅱ 强力驱动.`,
     },
   },
   presets: [
