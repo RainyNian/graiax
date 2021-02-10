@@ -10,9 +10,9 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Graiax',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Graiax Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -23,7 +23,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/GraiaProject/Application',
           label: 'GitHub',
           position: 'right',
         },
