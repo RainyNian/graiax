@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: '框架式开发',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Graia Framework 在 Graia Project 中作为基础设施的一部分, 借鉴了多种机器人开发框架的设计, 并创造出了多种独有设计, 从而使开发者能更好的表现逻辑思维.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '简洁而强大',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        化繁为简，通过将复杂的底层简单化，只需一行代码，便可创造一切可能
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '富有表现性',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        通过使用 <code>Dispatcher</code>, <code>Decorator</code>, <code>Interrupt</code> 等特性, 你大可不必将精力放在处理繁琐的网络通信上，只需要你有无限的想法
       </>
     ),
   },
