@@ -16,28 +16,28 @@ sidebar-title: 在开始之前
 
 这些概率对于你理解 `Mirai` 各大项目都是有好处的。
 
-同时， 使用 ` Graia` 框架来开发 `qq` 机器人， 需要使用 `python` 的很多高级语法， 我会在本节的第二部分来具体介绍 。
+同时， 使用 `Graia` 框架来开发 `qq` 机器人， 需要使用 `python` 的很多高级语法， 我会在本节的第二部分来具体介绍 。
 
 ## 基本概念
 
 ### `Mirai` 框架的架构
 
-**`Mirai` 框架有着极其丰富的生态和架构， 本指南只对其进行简单的介绍。 **
+**`Mirai` 框架有着极其丰富的生态和架构, 本指南只对其进行简单的介绍. **
 
-`Mirai `是使用 `Kotlin` 编程语言编写的一个 `qq机器人` 框架（ 后文简称： `qq bot` 或 `bot` ）
+`Mirai`是使用 `Kotlin` 编程语言编写的一个 `qq机器人` 框架 (后文简称： `qq bot` 或 `bot`).
 
-`Kotlin` 编程语言是Java编程语言的一种方言，你可以理解成 `Mirai` 就是用Java写的
+`Kotlin` 编程语言是Java编程语言的一种方言, 你可以理解成 `Mirai` 就是用Java写的.
 
->`Kotlin` 可以编译成 `Java` 字节码，也可以编译成 `JavaScript` ，方便在没有 `JVM` 的设备上运行。除此之外 `Kotlin` 还可以编译成二进制代码直接运行在机器上（例如嵌入式设备或 iOS）。
+>`Kotlin` 可以编译成 `Java` 字节码, 也可以编译成 `JavaScript`, 方便在没有 `JVM` 的设备上运行. 除此之外 `Kotlin` 还可以编译成二进制代码直接运行在机器上(例如嵌入式设备或 iOS).
 > `Kotlin` 已正式成为 `Android` 官方支持开发语言。
 >
 >—— 来自百度百科
 
-所以如果想要运行 `Mirai` 框架， 你必须要配置好 `jvm`（ Java运行时环境）
+所以如果想要运行 `Mirai` 框架, 你必须要配置好 `jvm` (Java运行时环境).
 
-`Mirai` 为了服务各个社区不同语言的使用者， 于是开发了 `mirai-api-http`（ 简称 `mah` ）
+`Mirai` 为了服务各个社区不同语言的使用者, 于是开发了 `mirai-api-http` (简称 `mah`).
 
-我们的 ` Graia` 也依赖于 `mah`。
+我们的 `Graia` 也依赖于 `mah`.
 
 **`Mirai` 框架和其各个组件之间的关系如下图所示**
 
@@ -45,13 +45,13 @@ sidebar-title: 在开始之前
 
 **如此复杂的关系使得 `Mirai` 各个组件之间的管理十分困难**
 
-于是有志人士（[iTX Technologies](https://github.com/iTXTech)）开发出了 `iTX Technologies Mirai Console Loader`（ 下简称 `MCL` ）
+于是有志人士([iTX Technologies](https://github.com/iTXTech))开发出了 `iTX Technologies Mirai Console Loader` (以下简称 `MCL`)
 
 但这样对一些初学者来说门槛还是很高， 他们又开发了 `iTX Technologies Mirai Console Loader Installer` （ 下简称 mcli ）， 支持自动下载`Java` 运行时和 [iTXTech Mirai Console Loader](https://github.com/iTXTech/mirai-console-loader) 。
 
 你可以在这里深入的理解 `Mirai` 的生态： https://github.com/mamoe/mirai/blob/dev/docs/mirai-ecology.md
 
-### 什么是 ` Graia` 框架
+### 什么是 `Graia` 框架
 
 ` Graia` 框架是基于 `mirai-api-http` 的即时聊天软件 **自动化** 框架。
 
