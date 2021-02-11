@@ -10,8 +10,8 @@ slug: /
 要想使用 Graia, 首先肯定得配置环境. 这里给出三种配置方法
 
 1. [手动配置](#手动配置)
-2. [使用 GraiaOK](#使用 GraiaOK)
-3. [使用 Graia CLI](#使用 Graia CLI)
+2. [使用 GraiaOK]("#使用 GraiaOK")
+3. [使用 Graia CLI]("#使用 Graia CLI")
 
 
 ## 手动配置
