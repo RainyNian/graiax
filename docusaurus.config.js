@@ -61,6 +61,10 @@ module.exports = {
               label: '加入我们',
               href: 'https://github.com/zzzzz167/graia-document/blob/main/join_us.md',
             },
+            {
+              label: '查看生成日志',
+              to: '_logs'
+            }
           ],
         },
       ],
