@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: '查看生成日志',
-              to: '_logs'
+              href: '_logs'
             }
           ],
         },
