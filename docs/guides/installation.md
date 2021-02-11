@@ -95,7 +95,18 @@ pip install graia-broadcast --upgrade
 
 ### 使用 Graia CLI
 
-未完待续 ...
+:::warn  
+Graia CLI不支持自动获取MCL，请自行获取  
+:::  
+打开您的shell  
+输入 pip install graiax_cli  
+如果您是Linux用户，那您可能需要使用  
+pip3 install graiax_cli  
+或者使用poetry  
+poetry add graiax_cli  
+安装完成后使用如下指令  
+graiax  
+即可
 
 ## 历史性的第一次对话
 
