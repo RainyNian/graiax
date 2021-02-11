@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               label: '查看生成日志',
-              href: '_logs'
+              href: 'https://graiax.xyz/_logs'
             }
           ],
         },
