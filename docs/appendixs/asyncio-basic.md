@@ -1,7 +1,7 @@
 ---
 id: asyncio-basic
 title: asyncio 基础教程
-sidebar-title: asyncio 基础教程
+sidebar-title: 附录 - asyncio 基础教程
 ---
 
 在使用 Graia 之前, 请务必先了解 Python 基础语法. 本文介绍了 asyncio 的使用方法. 凭这些你就可以去愉快的用 Graia 相关的东西了
@@ -80,4 +80,4 @@ async def main():
     await task # 等待这个任务完成
 ```
 
-就这样, 只要你知道 "在另外一个异步函数内, 只能用 `await` 执行其他异步函数", 然后其他的像 `async with`, `__await__` 之类的自己去学吧, 不用一些黑魔法(我完全不能理解为什么有人称 `asyncio` 为黑魔法, 这玩意基础的不行.), 凭这些你就可以去愉快的用 Graia 相关的东西了.
+就这样, 只要你知道 "在另外一个异步函数内, 只能用 `await` 执行其他异步函数", 然后其他的像 `async with`, `__await__` 之类的自己去学吧, 请移步[asyncio官方文档](https://docs.python.org/zh-cn/3/library/asyncio.html), 不用一些黑魔法(我完全不能理解为什么有人称 `asyncio` 为黑魔法, 这玩意基础的不行.), 凭这些你就可以去愉快的用 Graia 相关的东西了.
