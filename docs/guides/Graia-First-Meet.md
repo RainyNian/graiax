@@ -5,7 +5,16 @@ sidebar_label: 安装并配置开发环境
 slug: /
 ---
 
-## 安装
+# 安装
+
+要想使用 Graia, 首先肯定得配置环境. 这里给出三种配置方法
+
+1. [手动配置](#手动配置)
+2. [使用 GraiaOK](#使用 GraiaOK)
+3. [使用 Graia CLI](#使用 Graia CLI)
+
+
+## 手动配置
 
 ### Mirai-Console-loder安装
 在这里我们使用iTXTech MCL Installer来一键安装所有所需环境。
@@ -81,7 +90,15 @@ pip install graia-broadcast --upgrade
 
 :::
 
-## 历史性的第一次对话
+## 使用 GraiaOK
+
+未完待续 ...
+
+## 使用 Graia CLI
+
+未完待续 ...
+
+# 历史性的第一次对话
 
 将以下代码保存到一个py文件：
 
