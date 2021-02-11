@@ -59,4 +59,4 @@ app.launch_blocking()
 
 |属性名称|类型|描述|
 |:-:|:-:|:-|
-|`sessionKey`|`str`|会话标识, 即会话中用于进行操作的唯一认证凭证, 需要执行方法 `GraiaMiraiApplication.activeSession` 后才可用(该方法会自动执行).|
+|`sessionKey`|`str`|会话标识, 即会话中用于进行操作的唯一认证凭证, 需要执行方法 `GraiaMiraiApplication.activeSession` 后才可用(该方法会自动执行).

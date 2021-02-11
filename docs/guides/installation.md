@@ -9,13 +9,15 @@ sidebar_label: 安装并配置开发环境
 要想使用 Graia, 首先肯定得配置环境. 这里给出三种配置方法
 
 1. [手动配置](#手动配置)
-2. [使用 GraiaOK](#使用-graiaok)
-3. [使用 Graia CLI](#使用-graia-cli)
 
+2. [使用 GraiaOK](#使用-graiaok)
+
+3. [使用 Graia CLI](#使用-graia-cli)
 
 ### 手动配置
 
 #### Mirai-Console-loder安装
+
 在这里我们使用iTXTech MCL Installer来一键安装所有所需环境。
 
 打开[Mirai Console Loader](https://github.com/iTXTech/mcl-installer)的Github仓库
@@ -26,7 +28,7 @@ sidebar_label: 安装并配置开发环境
 
 **如果您是新手，且没有特殊需求，一路回车就能进行安装了。**
 
-> ```
+> ```log
 > Java version (8-15, default: 11): 选择Java版本安装，默认为Java 11
 > JRE or JDK (1: JRE, 2: JDK, default: JRE): 选择JRE还是JDK安装，默认为JRE
 > Binary Architecture (default: x64): 选择架构安装，默认x64
@@ -36,7 +38,7 @@ sidebar_label: 安装并配置开发环境
 > Would you like to download it? (Y/N, default: Y) Y：下载，N：取消
 > ```
 
-执行“.\mcl”启动mcl，使用“?”来查看详细使用，在这里不过多赘述。
+执行“./mcl”启动mcl，使用“?”来查看详细使用，在这里不过多赘述。
 
 #### 安装`mirai-api-http`
 
@@ -44,9 +46,10 @@ sidebar_label: 安装并配置开发环境
 
 - `MCL` 支持自动更新插件，支持设置插件更新频道等功能
 
+```shell
+./mcl --update-package net.mamoe:mirai-api-http --channel stable --type plugin
 ```
-.\mcl --update-package net.mamoe:mirai-api-http --channel stable --type plugin
-```
+
 1. 启动 Mirai Console Loader (首次启动会下载核心和插件,并生成配置文件)
 2. [编辑`config/net.mamoe.mirai-api-http/setting.yml`配置文件](#编辑mirai配置文件)
 
@@ -54,7 +57,7 @@ sidebar_label: 安装并配置开发环境
 
 现在我们需要进行mirai-api-http的配置，方便让其与graia进行通信，文件应该在mcl中在config\net.mamoe.mirai-api-http\setting.yml
 
-```
+```yaml
 # file: mirai-client/config/MiraiAPIHTTP/net.mamoe.mirai.api.http.config.Setting
 authKey: graia-mirai-api-http-authkey # 你可以自己设定, 这里作为示范
 
@@ -70,7 +73,7 @@ port: 8080 # httpapi 服务监听的端口, 错误的设置会造成 Graia Appli
 
 #### 安装graia
 
-```
+```shell
 pip install graia-application-mirai
 ```
 
@@ -80,7 +83,7 @@ ps：这同时会安装 `graia-application-mirai` 和 `graia-broadcast` 这两�
 
 如果您想更新其中的某一个：
 
-```
+```shell
 # 更新 graia-application-mirai
 pip install graia-application-mirai --upgrade
 # 更新 graia-broadcast
@@ -95,7 +98,18 @@ pip install graia-broadcast --upgrade
 
 ### 使用 Graia CLI
 
-未完待续 ...
+:::warn
+Graia CLI不支持自动获取MCL，请自行获取
+:::
+
+> 1. 打开您的shell
+> 2. 输入 pip install graiax_cli
+> 3. 如果您是Linux用户，那您可能需要使用
+> 4. pip3 install graiax_cli
+> 5. 或者使用poetry
+> 6. poetry add graiax_cli
+> 7. 安装完成后使用如下指令: `graiax` 即可
+> 本教程来自[Little YangNian](https://github.com/Little-YangNian/)
 
 ## 历史性的第一次对话
 
@@ -134,7 +148,7 @@ app.launch_blocking()
 
 运行使用python 文件名.py运行这段代码，将会输出：
 
-```
+```log
 [2020-07-25 21:42:11,929][INFO]: launching app...
 [2020-07-25 21:42:11,960][INFO]: using websocket to receive event
 [2020-07-25 21:42:11,964][INFO]: event reveiver running...
