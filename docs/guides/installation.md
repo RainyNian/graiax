@@ -2,10 +2,9 @@
 id: installation
 title: 安装并配置开发环境
 sidebar_label: 安装并配置开发环境
-slug: /
 ---
 
-# 安装
+## 安装
 
 要想使用 Graia, 首先肯定得配置环境. 这里给出三种配置方法
 
@@ -14,9 +13,9 @@ slug: /
 3. [使用 Graia CLI](#使用-graia-cli)
 
 
-## 手动配置
+### 手动配置
 
-### Mirai-Console-loder安装
+#### Mirai-Console-loder安装
 在这里我们使用iTXTech MCL Installer来一键安装所有所需环境。
 
 打开[Mirai Console Loader](https://github.com/iTXTech/mcl-installer)的Github仓库
@@ -39,7 +38,7 @@ slug: /
 
 执行“.\mcl”启动mcl，使用“?”来查看详细使用，在这里不过多赘述。
 
-### 安装`mirai-api-http`
+#### 安装`mirai-api-http`
 
 使用 [Mirai Console Loader](https://github.com/iTXTech/mirai-console-loader) 安装`mirai-api-http`
 
@@ -51,7 +50,7 @@ slug: /
 1. 启动 Mirai Console Loader (首次启动会下载核心和插件,并生成配置文件)
 2. [编辑`config/net.mamoe.mirai-api-http/setting.yml`配置文件](#编辑mirai配置文件)
 
-### 编辑mirai配置文件
+#### 编辑mirai配置文件
 
 现在我们需要进行mirai-api-http的配置，方便让其与graia进行通信，文件应该在mcl中在config\net.mamoe.mirai-api-http\setting.yml
 
@@ -69,7 +68,7 @@ port: 8080 # httpapi 服务监听的端口, 错误的设置会造成 Graia Appli
 
 如果端口被占用请修改port
 
-### 安装graia
+#### 安装graia
 
 ```
 pip install graia-application-mirai
@@ -90,15 +89,15 @@ pip install graia-broadcast --upgrade
 
 :::
 
-## 使用 GraiaOK
+### 使用 GraiaOK
 
 未完待续 ...
 
-## 使用 Graia CLI
+### 使用 Graia CLI
 
 未完待续 ...
 
-# 历史性的第一次对话
+## 历史性的第一次对话
 
 将以下代码保存到一个py文件：
 
