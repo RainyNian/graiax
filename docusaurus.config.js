@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Graiax',
-  tagline: 'The Document of Graiax',
+  title: 'Graia Document',
+  tagline: 'The Document of Graia',
   url: 'http://graiax.xyz/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
