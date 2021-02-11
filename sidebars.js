@@ -5,8 +5,8 @@ module.exports = {
       type: 'category',
       label: '入门',
       items: [
-        'guides/installation',
         'guides/before-start',
+        'guides/installation',
         'guides/about-connection-config',
       ]
     },
