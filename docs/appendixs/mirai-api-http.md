@@ -3,7 +3,6 @@ id: mirai-api-http
 title: 如何纯手动配置 mirai
 sidebar-title: 手动配置 mah
 ---
-# 如何纯手动配置 mirai
 
 ## 准备工作
 
