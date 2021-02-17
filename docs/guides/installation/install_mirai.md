@@ -4,17 +4,17 @@ title: 配置Mirai环境
 sidebar_label: 配置Mirai环境
 ---
 
-## 配置Mirai环境
-通过“在开始之前”这一篇章，我们知道了Graia是需要Mirai的SDK，没有Mirai就无法运行Graia。本章节就会教大家如何搭建Mirai环境
+通过“在开始之前”这一篇章，我们知道了Graia是Mirai的SDK，没有Mirai就无法运行Graia。本章节就会教大家如何搭建Mirai环境
+(配置难度从上到下依次减小)
+1. [纯手动配置](#纯手动配置)(不推荐)
+2. [使用Mirai Console Loader(mcl)](#使用mcl)
+3. [使用Mcl Installer](#使用mcl_installer)
+4. [使用GraiaOK](#使用GraiaOK)
 
-1. [纯手动配置](###纯手动配置)(不推荐)
-2. [使用Mirai Console Loader(mcl)](###使用mcl)
-3. [使用Mcl Installer](###使用mcl_installer)
-4. [使用GraiaOK](###使用GraiaOK)
-
-:::warn 注：配置难度从上到下依次减小，这篇配置环境安装已经尽量小白了，如果有任何你不会的问题，请自行解决 :::
-
+:::warning
+这篇配置环境安装已经尽量小白了，如果有任何你不会的问题↓
 ![1.jpg](../../../images/guides/installation/1.jpg)
+:::
 
 ### 纯手动配置
 #### 1.安装Java
