@@ -14,7 +14,8 @@ module.exports = {
       type: 'category',
       label: '附录',
       items: [
-        'appendixs/asyncio-basic'
+        'appendixs/asyncio-basic',
+        'appendixs/mirai-api-http'
       ]
     }
   ],
