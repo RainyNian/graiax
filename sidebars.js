@@ -6,7 +6,14 @@ module.exports = {
       label: '入门',
       items: [
         'guides/before-start',
-        'guides/installation',
+        {
+          type: 'category',
+          label: "安装",
+          items: [
+            'guides/installation/install mirai',
+            'guides/installation/install graia',
+          ]
+        },
         'guides/about-connection-config',
       ]
     },
