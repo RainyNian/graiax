@@ -67,6 +67,15 @@ module.exports = {
             }
           ],
         },
+        {
+          title: '友情链接',
+          items: [
+            {
+              label: 'YiriMirai',
+              href: 'https://yiri-mirai.vercel.app'
+            }
+          ]
+        }
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Graia Project.由 Docusaurus Ⅱ 强力驱动.`,
     },

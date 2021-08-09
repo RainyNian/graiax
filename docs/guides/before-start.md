@@ -16,7 +16,7 @@ sidebar-title: 在开始之前
 
 这些概率对于你理解 `Mirai` 各大项目都是有好处的。
 
-同时, 使用 `Graia` 框架来开发 `qq` 机器人， 需要使用 `python` 的很多高级语法,，将在本节的第二部分来具体介绍。
+同时， 使用 `Graia` 框架来开发 `qq` 机器人， 需要使用 `python` 的很多高级语法，将在本节的第二部分来具体介绍。
 
 ## 基本概念
 
@@ -37,7 +37,7 @@ sidebar-title: 在开始之前
 
 `Mirai` 为了服务各个社区不同语言的使用者，于是开发了 `mirai-api-http` (简称 `mah`)。
 
-我们的 `Graia` 也依赖于 `mah`。
+我们的 `GraiaApplicationMirai` 也依赖于 `mah`。
 
 **`Mirai` 框架和其各个组件之间的关系如下图所示**
 
@@ -53,7 +53,13 @@ sidebar-title: 在开始之前
 
 ### 什么是 `Graia` 框架
 
-`Graia` 框架是基于 `mirai-api-http` 的即时聊天软件 **自动化** 框架。
+`Graia` 框架分为`v4(GraiaApplicationMirai)`和`v5(Avilla)`两个版本
+
+`GraiaApplicationMirai` 是基于 `mirai-api-http` 的即时聊天软件 **自动化** 框架。
+
+`Avilla` 是通过对不通API的即时聊天软件 **自动化** 框架，正在开发中，目前仅支持`Onebot`的API
+
+目前本文档介绍的是`v4(GraiaApplicationMirai)`
 
 #### `Graia` 基于事件系统
 
@@ -182,7 +188,7 @@ bot.run()
 这是你需要提前掌握的高级语法:
 
 - [`type hint`](https://docs.python.org/zh-cn/3/library/typing.html)
-- [协程与 `asyncio`](/docs/appendixs/asyncio-basic)
+- [协程与 `asyncio`](https://docs.python.org/zh-cn/3/library/asyncio.html)
 - [装饰器](https://www.runoob.com/w3cnote/python-func-decorators.html)
 
 如果你还不会，你真应该赶紧学习他们，上面给出的网址是一些较好的教程。

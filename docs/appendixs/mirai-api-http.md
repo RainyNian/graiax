@@ -1,6 +1,6 @@
 ---
 id: mirai-api-http
-title: 如何纯手动配置 mirai
+title: 手动配置mirai-api-http
 sidebar-title: 手动配置 mah
 ---
 
@@ -17,6 +17,7 @@ mirai-2.0/
 ```
 
 `run.sh` 的内容( `Windows` 系统忽略)：
+
 ```bash
 #!/usr/bin/env bash
 
@@ -120,6 +121,7 @@ mirai-2.0/
 ```
 
 此时，目录的大概结构应该是：
+
 ```bash
 mirai-2.0/
 ├── config
@@ -192,5 +194,5 @@ mirai-2.0/
 ```
 
 ## 特别说明
-![登录验证](/img/Snipaste_2021-02-16_12-17-40.png) → 需要点击图上的 **设备锁验证** 字样
 
+![登录验证](/img/Snipaste_2021-02-16_12-17-40.png) → 需要点击图上的 **设备锁验证** 字样

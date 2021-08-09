@@ -1,10 +1,11 @@
 ---
-id: install graia
+id: install-graia
 title: 安装Graia
 sidebar_label: 安装Graia
 ---
 
 ## 安装Graia
+
 首先，请确保你的设备已经安装了`Python3.6+`版本的Python(推荐`Python3.8+`)  
 至于怎么安装Python。。。Baidu/Google Pls
 
@@ -16,9 +17,10 @@ poetry add graia-application-mirai
 ```
 
 :::note 关于graia版本的问题
-由于v5(avilla)d的出现，v4(Graia-application-mirai)已经停止更新  
+由于v5(Avilla)的出现，v4(Graia-Application-Mirai)已经停止更新  
 而现在最新版的graia-application-mirai处于一种完全不能用的状态  
 所以最后一个能够稳定运行的v4框架的版本号如下  
+
 ```shell
 graia-application-mirai==0.19.2
 graia-broadcast==0.8.11
@@ -27,6 +29,7 @@ graia-saya==0.0.9 #graia的模组管理模块
 graia-component-selector==0.0.6 #graia简单的消息链元素选择器
 graia-template==0.0.4 #graia中MessageChain消息模板
 ```
+
 我们也推荐各位尽快学习v5以获得稳定的更新
 :::
 

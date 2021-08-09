@@ -6,22 +6,29 @@ module.exports = {
       label: '入门',
       items: [
         'guides/before-start',
+        'guides/install-mirai',
         {
           type: 'category',
-          label: "安装",
+          label: "GraiaApplication(v4)",
           items: [
-            'guides/installation/install mirai',
-            'guides/installation/install graia',
+            'guides/v4/install-graia',
+            'guides/v4/about-connection-config',
           ]
         },
-        'guides/about-connection-config',
+        {
+          type: 'category',
+          label: "AvillaCore(v5)",
+          items: [
+            'guides/v5/install-avilla',
+          ]
+        },
       ]
+
     },
     {
       type: 'category',
       label: '附录',
       items: [
-        'appendixs/asyncio-basic',
         'appendixs/mirai-api-http'
       ]
     }
