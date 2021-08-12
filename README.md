@@ -1,4 +1,4 @@
-# griai user文档  
+# `Graia` user文档  
 ## 基于Docusaurus 2
 
-https://vercel.com/weifanxiang/graiax
+https://vercel.com/nullptr/graiax
